@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <title>Cố định header scroll thanh cuộn</title>
+</head>
+<body>
+    <link rel="stylesheet" href="header2.css">
+    <header>
+        <div class="inner-header container" >
+            <a href="" class="logo">Đàm Phúc Hotel</a>
+            <div id="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav>
+                <ul id="main-menu"> 
+                   <li><a href="#">Hệ thống phòng</a></li>
+                   <li><a href="#">Tiện nghi</a></li>
+                   <li><a href="#">Khuyến mại</a></li>
+                   <li><a href="#">Hình ảnh</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="main">
+    <div id="banner"> </div>
+        <div class="item1 text-center">
+            <h2>Khách sạn Đà Nẵng</h2>
+            <a class="a2"href="tel:0922338534">Cách biển 300m - giá chỉ 200k</a>
+        </div>
+    <div id="content" class="container">
+    </div>
+</div>
+<link rel="stylesheet" href="../lesson2/tienich2.css">
+    <h1>Lý do nên chọn khách sạn Đàm Phúc</h1>
+    <article class="row">
+        <div class="col-6 im">
+            <img  src="../lesson1/images/phong-gia-dinh.jpg" alt="">
+        </div>
+        <div class="col-6 content">
+        <h3>1. Phòng có cửa xổ rộng, thoáng và rất sạch sẽ</h3>
+        <p>Quý Khách có thể xem hình ở trên có thể thấy được phòng của chúng tôi có cửa xổ rất
+             rộng và view nhìn ra không gian toàn cây xanh sẽ mang đến cho Quý Khách một kỳ nghỉ 
+             thật tuyệt với và tươi mát.</p>
+        <p>Đặc biết Khách sạn Đàm Phúc vừa mới sơn sửa lại phòng, vì vậy chúng tôi Cam Kết 
+            phòng sẽ rất sạch sẽ và thoáng mát.</p>
+        </div>
+    </article>
+    <article class="row">
+        <div class="col-6 im">
+           <img src="../lesson1/images/gan_bien_my_khe.png" alt="">
+        </div>
+        <div class="col-6 content">
+        <h3>2. Cách biển Mỹ Khê chỉ 300m</h3>
+        <p>Tọa lạc ở vị trí tuyệt đẹp tại khu Bãi biển Mỹ Khê thuộc thành phố Đà Nẵng.</p>
+        <p>Chỉ với khoảng vài bước đi bộ là quý khách có thể tung tăng với những con sóng
+          của bãi biển Mỹ Khê.</p>
+        </div>
+    </article> 
+    <article class="row">
+        <div class="col-6 im">
+            <img src="../lesson1/images/gan_dia_diem_an_uong.png" alt="">
+        </div>
+        <div class="col-6 content">
+        <h3>3. Xung quanh khách sạn có rất nhiều địa điểm ăn uông</h3>
+        <p>Với hình ảnh bản đồ ở trên, Quý Khách có thể dễ dàng thấy được xung quanh 
+            khách sạn Đàm Phúc có rất nhiều địa điểm ăn uống.</p>
+        <p>Cực kỳ thuận tiện cho Quy Khách có thể thưởng thức nhiều món ngon của Đà Nẵng 
+            như hải sản, Mỳ Quảng, bún,... và còn có rất nhiều cửa hàng đặc sản để làm quà tặng.</p>
+        </div>
+    </article>
+    <article class="row">
+        <div class="col-6 im">
+            <img class="img1" src="../lesson1/images/cho_thue_xe_may.png" alt="">
+        </div>
+        <div class="col-6 content">
+            <h3>4. Đầy đủ dịch vụ như: Thuê xe máy, giặt ủi, Tour du lịch,...</h3>
+            <p>Ngoài ra Khách sạn Đàm Phúc còn cung cấp các dịch vụ như:</p>
+            <p>- Thuê ce máy chất lượng, giá tốt và không cần bất kỳ giất tờ nào.</p>
+            <p>- Giặt ủi.</p>
+            <p>- Tour du lịch Bà Nà, Hội An, Ngũ Hành Sơn,.. chất lượng và uy tín.</p>
+        </div>
+    </article>
+    <div class="hotline">
+        <a id="hotline1" href="tel:0922338534"><i class="fa-solid fa-phone-flip"></i> Gọi ngay 0922 338 534</a>
+    </div>
+    <footer>
+        <p>Địa chỉ khách sạn:
+            <span class="template">30/1 Hà Bổng, Đà Nẵng</span>
+            " - Hotline: "
+            <span class="template">0922 338 534</span> </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $(window).scroll(function()
+            {
+                if($(this).scrollTop()){
+                    $('header').addClass('sticky');
+                }else{
+                    $('header').removeClass('sticky');
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('#toggle').click(function(){
+                $('nav').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
